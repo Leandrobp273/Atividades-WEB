@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 2</title>
+</head>
+</style>
+<body>
+    <h1>📆 Agenda Semanal</h1>
+    <table>
+        <tr>
+            <th><strong>Horário |</strong></th>
+            <th><strong>Segunda |</strong></th>
+            <th><strong>Terça |</strong></th>
+            <th><strong>Quarta |</strong></th>
+            <th><strong>Quinta |</strong></th>
+            <th><strong>Sexta |</strong></th>
+        </tr>
+        <tr>
+            <td rowspan="2">8:00 |</td>
+            <td>Reunião Equipe 📊 |</td>
+            <td rowspan="2">Treinamento 📚 |</td>
+            <td>Café da manhã 🍵 |</td>
+            <td rowspan="2">Projeto A 💡 | </td>
+            <td>Revisão Semanal 📋|</td>
+        </tr>
+        <tr>
+            <td>Planejamento 📋| </td>
+            <td>Desenvolvimento 💻| </td>
+            <td>Apresentação 🎤| </td>
+        </tr>
+        <tr>
+            <td>10:00 |</td>
+            <td colspan = "2">Workshop Inovação 🚀</td>
+            <td>Consultoria 🤝|</td>
+            <td>Reunião Cliente 💼|</td>
+        </tr>
+        <tr>
+            <td>14:00 |</td>
+            <td>Desenvolvimento 💻|</td>
+            <td>Análise de Dados 📈|</td>
+            <td>Projeto B 🧪|</td>
+            <td>Mentoria 👥|</td>
+            <td>Evento Externo 🌐|</td>
+        </tr>
+    </table>
+    <form>
+        <h1>Formulário de Cadastro</h1>
+            <p>Nome completo: <input type="text" size="30" minlenght = "5" maxlenght="40" name="nome" required></p>
+            <p>Email: <input type="email" name="e-mail" minlenght = "5" maxlenght="40" required></p>
+            <p>Idade: <input type="number" name="idade" required></p>
+            <p>Data de Nascimento: <input type="date" name="data de nascimento" required> </p>
+            <p>Profissão: <input type="text" name="profissão"> </p>
+        <fieldset>
+            <legend>Endereço</legend>
+            <p>Rua: <input type="text" name="rua" minlenght="3" required></p>
+            <p>Número: <input type="text" name="número"></p>
+            <p>Cidade: <input type="text" name="cidade" minlenght = "3" maxlenght = "30"> </p>
+        </fieldset>
+        Tipo de usuário:
+        <select name="tipo de usuário">
+            <option>Usuário</option>
+            <option>Administrador Local</option>
+            <option>Administrador</option>
+        </select>
+        <p>Usuário: <input type="text" name="usuário" minlenght="5" maxlenght = "30" required> </p>
+        <p>Senha: <input type="password" name="senha" minlenght ="8" maxlenght ="30" required> </p>
+        <input type="submit" value = "Enviar">
+        <input type="reset">
+    </form>
+</body>
+
+</html>
