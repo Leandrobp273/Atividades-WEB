@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de Notícias</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<div>
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Portal 24Hrs</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Assinaturas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre Nós</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <h3 class="text-center my-3 my-lg-3">Em Destaque</h3>
+    <div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="assets/aeroporto.jpg" class="d-block w-100" height = "500" alt="aeroportoatraso">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Aeroporto de Porto Alegre enfrenta atrasos</h5>
+        <p>Após um pane na comunicação com São Paulo, os vôos foram atrasados por tempo indeterminado.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="assets/neymarsla.jpeg" class="d-block w-100" height = "500" alt="neymar">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Neymar chuta Cthulhu após um drible</h5>
+        <p>Após a entidade cósmica Cthulhu driblar Neymar, o Neymar agride a criatura.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="assets/tempestade.jpg" class="d-block w-100"  height = "500" alt="tempestade">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Duas frentes frias até o fim de junho</h5>
+        <p>Com o inverno chegando este mês, o sul pode enfrentar tempestades e formações de ciclones.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<h3 class="text-center my-3 my-lg-3">Notícias da Semana</h3>
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card h-100">
+      <img src="assets/ufrgs.webp" class="card-img-top" alt="ufrgs" height="200">
+      <div class="card-body">
+        <a href="#" class="card-title"><strong>UFRGS está entre as 2,3% melhores universidades do mundo</strong></a>
+        <p class="card-text">Globalmente, a universidade está na posição 476 entre as 21.291 instituições avaliadas.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Atualizado há 2 dias atrás.</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="assets/metlife.webp" class="card-img-top" alt="estádio" height="200">
+      <div class="card-body">
+        <a href="#" class="card-title"><strong>Conheça o estádio onde o Brasil jogará contra Marrocos</strong></a>
+        <p class="card-text">O jogo será no dia 13 de junho no estádio MetLife em Nova Jersey.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Atualizado há 3 dias.</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="assets/cr7.jpg" class="card-img-top" alt="cr7" height="200">
+      <div class="card-body">
+        <a href="#" class="card-title"><strong>Confira o drama envolvendo Cristiano Ronaldo</strong></a>
+        <p class="card-text">Após acontecimentos chocantes, o ex-jogador se tornou entregador no interior de Maranhão.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Atualizado há 6 dias.</small>
+      </div>
+    </div>
+  </div>
+</div>
+<h3 class="text-center my-3 my-lg-3">Notícias de Hoje</h3>
+<div class="row row-cols-1 row-cols-md-2 g-4">
+  <div class="col g-5">
+    <div class="card">
+      <img src="assets/carteira.jpeg" class="card-img-top" alt="carteira de trabalho" height="270">
+      <div class="card-body">
+        <a href="" class="card-title"><strong>É amanhã!</strong></a>
+        <p class="card-text">Amanhã se completa um ano que meu vizinho fez uma obra irregular na frente da minha casa.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col g-5">
+    <div class="card">
+      <img src="assets/albert.jpg" class="card-img-top" alt="albert" height="270">
+      <div class="card-body">
+        <a href="#" class="card-title"><strong>Pesquisadores explicam como seria se Albert Einsten estivesse vivo</strong></a>
+        <p class="card-text">"Albert Einsten possivelmente estaria trabalhando como motorista de aplicativo", dizem os pesquisadores.</p>
+      </div>
+    </div>
+  </div>
+
+<div class="container text-center">
+  <div class="row">
+    <div class="col-16 g-5 justify-content-center border-top border-dark pt-3 mt-5">
+     <h3>Deseja receber notícias de um tópico específico?</h3>
+     <p class="fs-6">Assine nosso serviço e receba notificações quando notícias de sua preferência forem postadas.</p>
+     <button type="button" class="btn btn-outline-dark">Confira</button> 
+    </div>
+  </div>
+<div class="container">
+  <footer class=" py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Inicio</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Assinaturas</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Sobre Nós</a></li>
+    </ul>
+    <p class="text-center text-muted">© 2026 Portal 24Hrs</p>
+  </footer>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+</html
